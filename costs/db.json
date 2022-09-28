@@ -1,0 +1,81 @@
+{
+  "projects": [
+    {
+      "name": "Lhe Falta Ódio!",
+      "budget": "666666666",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 103332,
+      "services": [
+        {
+          "name": "Sharingan",
+          "cost": "99999",
+          "description": "Fuma um beck pra ficar com os zoio rojo",
+          "id": "ba64b224-3705-4a95-934f-4194af41f093"
+        },
+        {
+          "name": "Amaterasu",
+          "cost": "3333",
+          "description": "Esse custa um olho dacara",
+          "id": "f36315fb-27bd-4b56-bfaa-9dfb2d9d18cf"
+        }
+      ],
+      "id": 7
+    },
+    {
+      "name": "Testando Responsividade",
+      "budget": "10",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 8
+    },
+    {
+      "name": "Martial Peak",
+      "budget": "10000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 10000,
+      "services": [
+        {
+          "name": "Desenhar essa merda bem",
+          "cost": "1000",
+          "description": "Bora fazer uma arte legal?",
+          "id": "ef1a861c-7185-45b6-989d-de271a813bfa"
+        },
+        {
+          "name": "Melhorar a continuidade",
+          "cost": "9000",
+          "description": "Vou nem falar nada",
+          "id": "4538a564-c9d7-49db-819f-3fe456abf4f5"
+        }
+      ],
+      "id": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}

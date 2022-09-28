@@ -1,0 +1,52 @@
+ Inicializar um projeto React: Create React App 
+    - Precisa do node e do npm instalados;
+    - Comando: npx create-react-app meu-projeto
+    - cd meu-proejto (para entrar na pasta do projeto)
+    - npm start para Inicializar o projeto no servidor node.
+
+Dependencias comuns:
+    npm install json-server - requisições com APIs
+    npm install react-icons - Icones diversos
+    npm install react-router-dom - Rotas de navegação
+    npm install uuid - Gerador de IDs para listas
+
+    Linha de instalação pra todos de vez:
+    npm install json-server react-icons react-router-dom uuid
+
+Empacotar pra produção:
+    npm run build - Bundles the app into static files for production.
+
+- O arquivo App.js é quem orquestra tudo.
+- Componentes são peças reutilizáveis que podem ser importadas em qualquer outro componente. Inclusive, App.js é um componente
+- Componentes podem ter propriedades que só podem ser passadas para seus filhos.
+- Nomes de componentes, por convenção, são CamelCase.
+
+Props
+    - Ao passar uma função como props para um componente, não deve-se utilizar os parenteses (), senão a função será executada quando a pagina carregar
+
+State Lift
+    - Tecnica utilizada para compartilhar state para o elemento pai.
+
+React Router
+    - Pacote para mudança de URLs da aplicação, podendo acessar outras views sem o page reload;
+    - Instalação: npm install react-router-dom
+    - imports: import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
+React Icons
+    - Pacote de icones externos;
+    - Instalação: npm install react-icons
+
+Criando DataBase local para testes
+    - Na raiz do projeto, criar o arquivo db.json;
+    - Criar nele as bibliotecas/bases/objetos necessárias para o sistema consumir;
+    - Adicionar no arquivo package.json, no objeto scrips, após o atributo start, um novo atributo:
+        "backend": "json-server --watch db.json --port 5000",
+    - Iniciar a DataBase no servidor através do comando:
+        npm run backend
+    - Verificar se a DataBase subiu ok no link:
+        localhost/5000/algum-objeto-da-DataBase
+
+Operador de Propagação (spread operator)
+    - é um recurso que permite acessar o conteúdo de um objeto iterável.
+    - A sintaxe do operador spread é simples e fácil de lembrar. Consiste em três pontos ( ...). Esses três pontos são seguidos pelo iterável ( ...someIterable), cujo conteúdo você deseja acessar.
+    
